@@ -30,8 +30,17 @@
 
     <section>
         <h2>تواصل معي | Contact</h2>
-        <p>البريد الإلكتروني: <a href="mailto:falsayedm@gmail.com">falsayedm@gmail.com</a></p>
-        <a href="mailto:falsayedm@gmail.com" class="contact-button">✉️ اتصل بي</a>
+        <a href="mailto:falsayedm@gmail.com" class="contact-button">✉️ اتصل بي مباشرة</a>
+        <p style="margin-top:30px;">أو ارسل رسالة من خلال النموذج التالي:</p>
+        <form action="https://formsubmit.co/falsayedm@gmail.com" method="POST" class="contact-form">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://fathimoussa230.github.io/fathi-site/thanks.html">
+            <input type="text" name="_honey" style="display:none">
+            <input type="text" name="name" placeholder="الاسم" required>
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+            <textarea name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+            <button type="submit">📨 إرسال</button>
+        </form>
     </section>
 
     <footer>
