@@ -1,93 +1,67 @@
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.8;
     margin: 0;
     padding: 0;
-    background: #f9f9f9;
-    color: #333;
-    direction: rtl;
-    text-align: center;
 }
 
 header {
-    background: #0077b6;
+    background-color: #007777;
     color: white;
     padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #004c4c;
+}
+
+h1, h2, h3 {
+    margin: 0;
 }
 
 section {
-    margin: 30px auto;
-    max-width: 700px;
     padding: 20px;
-    background: white;
-    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+ul, ol {
+    padding-right: 20px;
 }
 
-li {
-    margin: 10px 0;
+a {
+    color: #007777;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #004c4c;
 }
 
 footer {
-    background: #eee;
-    padding: 10px;
-    margin-top: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: #007777;
+    color: white;
+    border-top: 4px solid #004c4c;
 }
 
-.contact-button,
-.social-links a {
+.contact-button {
     display: inline-block;
-    margin: 10px;
+    margin-top: 30px;
+    background-color: #007777;
+    color: white;
     padding: 10px 20px;
-    background-color: #00a6a6;
-    color: white;
+    border-radius: 6px;
     text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
 }
-
-.contact-button:hover,
-.social-links a:hover {
-    background-color: #007777;
-}
-
-.social-links i {
-    margin-left: 8px;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
-}
-
-.contact-form button {
-    padding: 10px;
-    font-size: 18px;
-    background-color: #00a6a6;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.contact-form button:hover {
-    background-color: #007777;
+.contact-button:hover {
+    background-color: #005555;
 }
