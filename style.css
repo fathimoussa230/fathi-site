@@ -1,45 +1,43 @@
 
 body {
-    font-family: 'Cairo', sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    direction: rtl;
-    text-align: right;
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
 }
-
 header {
-    background-color: #00796b;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #00695c;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
-
-header .home-button {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #004d40;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 main {
-    padding: 20px;
+  padding: 1rem;
 }
-
-article {
-    background-color: white;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.articles ul {
+  list-style: none;
+  padding: 0;
 }
-
+.articles li {
+  margin-bottom: 0.5rem;
+}
+.article {
+  background-color: white;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.article img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 1rem auto;
+}
 footer {
-    background-color: #004d40;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  background-color: #00695c;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
 }
